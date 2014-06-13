@@ -13,8 +13,8 @@ else
 
 // Create our Application instance (replace this with your appId and secret).
 $facebook = new Facebook(array(
-  'appId'  => '111176918968243',
-  'secret' => 'cd2dac462960cb0e8f4f31497e909bc4',
+  'appId'  => 'APP ID',
+  'secret' => 'SECRET TOKEN (pegar no developers.facebook)',
   'cookie' => true,
 ));
 
@@ -22,10 +22,10 @@ $facebook = new Facebook(array(
 $attachment =  array(
         'access_token' => $_REQUEST['at'],
         'message' => "teste de integração rfid+php+graph api",
-        'name' => "Royal Pixel",
-        'link' => "http://www.royalpixel.tv",
+        'name' => "Nome que irá aparecer",
+        'link' => "https://www.youtube.com/watch?v=6fnD3DPlibQ",
         'description' => "Teste de postagem com cartões RFID + PHP + Facebook Graph API",
-        'picture'=> "http://www.royalpixel.tv/wordpress/wp-content/themes/royalpixel2011/images/head_character.png"
+        'picture'=> "https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-ash2/t1.0-9/1381856_540353166032869_1248947864_n.jpg"
         );
 
     //print_r($attachment);
